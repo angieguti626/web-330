@@ -1,7 +1,7 @@
 # web-330
 Enterprise JavaScript II
 
-# H1 WEB 330 Enterprise JavaScript II
-## H2 Contributors
+# WEB 330 Enterprise JavaScript II
+## Contributors
 * Richard Krasso
 * Angelica Gutierrez
