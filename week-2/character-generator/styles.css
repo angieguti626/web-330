@@ -1,0 +1,27 @@
+/*
+  Pragmatic JavaScript
+  Chapter 1
+  Programming Assignment
+
+  Author: Angelica Gutierrez
+  Date: June 9, 2024
+  Filename: styles.css
+*/
+
+/* Your CSS goes here */
+button{
+padding: 1%;
+border-radius: 15%;
+background-color: beige;
+margin-top: 3%;
+}
+
+
+h2,h3{
+  text-align: center;
+}
+
+h2,
+.result{
+  color:cadetblue;
+}
