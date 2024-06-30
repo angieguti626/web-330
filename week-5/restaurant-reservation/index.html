@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--
+      Pragmatic JavaScript
+      Chapter 2
+      Programming Assignment
+
+      Author: Angelica Gutierrez
+      Date: June 30, 2024
+      Filename: index.html
+    -->
+  <title>Table Reservation</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+  <img src="Dinner-PNG-HD-Isolated.png" alt="dinner png" class="center">
+  <h1>Reserve Your Table Now!</h1>
+  <h2>Enter Your Name & Table Number To Get Started.</h2>
+  <div class="form-container">
+    <form id="reservationForm">
+      <label for="name">Name:</label><br />
+      <input type="text" id="name" name="name" /><br />
+      <label for="tableNumber">Table Number:</label><br />
+      <input type="number" id="tableNumber" name="tableNumber" /><br />
+      <input type="submit" value="Reserve" />
+    </form>
+    <p id="message"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

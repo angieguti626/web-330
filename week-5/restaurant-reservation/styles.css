@@ -1,0 +1,77 @@
+/*
+  Pragmatic JavaScript
+  Chapter 2
+  Programming Assignment
+
+  Author: Anngelica Gutierrez
+  Date: June 30, 2024
+  Filename: styles.css
+*/
+
+/* Add your CSS styles here */
+
+/*Full page*/
+body {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5;
+  background-color: #eedaea;
+  color:#823179;
+}
+
+/*Image properties*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  width: 12%;
+}
+
+/*Reserve Heading*/
+h1{
+  text-align: center;
+  font-size: larger;
+  margin-top: 3%;
+}
+
+/*Subheading*/
+h2{
+  text-align: center;
+  font-size: smaller;
+}
+
+/*form*/
+.form-container {
+  background: #ffffff;
+  padding: 25px;
+  max-width: 400px;
+  margin: 40px auto;
+}
+
+/*input boxes*/
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 2px solid;
+  box-sizing: border-box;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*reserve button*/
+input[type="submit"] {
+  display: block;
+  margin-top: 5%;
+  width: 100%;
+  padding: 12px;
+  background-color: #823179;
+  color: #ffffff;
+}
+
+/*Display success/not success message*/
+#message {
+  display: block;
+  font-size: medium;
+  text-align: center;
+}
