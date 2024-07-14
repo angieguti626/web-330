@@ -1,0 +1,28 @@
+/*
+  Pragmatic JavaScript
+  Chapter 3
+  Programming Assignment
+
+  Author: Angelica Gutierrez
+  Date: July 14, 2024
+  Filename: styles.css
+*/
+
+/* Add your CSS styles here */
+body {
+  background-color: #fdaef5;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-size: 2em;
+  text-align: center;
+  color: #ffffff;
+  padding: 10px;
+}
+.chef-container {
+  border: 2px solid #943273;
+  margin: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+}
